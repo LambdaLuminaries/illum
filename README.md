@@ -10,6 +10,10 @@ is based on this
 
 Feel free to contribute.
 
+## Usage
+
+> cabal --dev devel
+
 
 ## Things to do:
 1. Get some sort of authentication working.

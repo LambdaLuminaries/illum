@@ -34,6 +34,8 @@ import Model
 import Text.Jasmine (minifym)
 import Web.ClientSession (getKey)
 import Text.Hamlet (hamletFile)
+import Data.Text
+import Yesod.Form.Nic (YesodNic)
 #if DEVELOPMENT
 import qualified Data.Text.Lazy.Encoding
 #else
