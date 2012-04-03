@@ -12,6 +12,5 @@ import Import
 getRootR :: Handler RepHtml
 getRootR = do
     defaultLayout $ do
-        h2id <- lift newIdent
-        setTitle "illum homepage"
-        $(widgetFile "homepage")
+        setTitle "Lambda Luminaries"
+        $(widgetFile "bootstrap")
